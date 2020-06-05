@@ -59,7 +59,11 @@ dependencies {
     // Log4J
     compile group: 'log4j', name: 'log4j', version: "${log4jVersion}"
 
+    // Apache Commons
+    compile group: 'commons-io', name: 'commons-io', version: '2.7'
+
     //Groovy
     compile group: 'org.codehaus.groovy', name: 'groovy', version: '3.0.4'
     compile group: 'org.codehaus.groovy', name: 'groovy-jsr223', version: '3.0.4'
+    compile group: 'org.codehaus.groovy', name: 'groovy-templates', version: '3.0.4'
 }
